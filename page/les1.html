@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="les1_1"></div>
+<div id="les1_2"></div>
+
+<script type="text/javascript">
+  var a="HelloWorld";
+  var b=document.getElementById('les1_1');
+  b.innerText = a;
+  b.style.color='#FFA500';
+  console.log("今天天气不错");
+
+
+  function Person() {
+      this.myName = function() {
+         // 这里循环查找window对象中的Person属性
+        console.log(this.global)
+         for (var name in this.global) {
+                // 判断是否为Person类
+                 if (this.global[name] === this) {
+                      console.log(name)
+                      console.log(typeof this)
+                       return name;
+                   }
+             }
+       }
+      this.country='China';
+  }
+  Person.prototype.global=this;
+
+  Person.prototype.name="Nicholas";
+  Person.prototype.age=29;
+  Person.prototype.sayName=function (insName) {
+    document.getElementById('les1_2').innerText=this.name;
+    console.log(insName+":"+this.constructor.toString().split(' ')[1]+":"+this.name);
+  };
+  
+  function Student() {
+    //继承父类的实例属性
+    Person.call(this);
+    this.city='Shanghai';
+  }
+  //继承父类的原型方法
+  Student.prototype= new Person();
+  Student.prototype.constructor=Student;
+
+
+  var s1=new Student();
+  console.log(s1.country);
+  console.log(s1.city);
+  s1.sayName('s1')
+  console.log(s1)
+//  console.log(s1.sayName)
+
+  var p1=new Person();
+  p1.name="Greg";
+  p1.sayName('p1');
+  console.log(p1.constructor);
+//
+//  var p2=new Person();
+//  p2.sayName('p2');
+//
+//  delete p1.name;
+//  p1.sayName('p1');
+//  delete p1.name;
+//  p1.sayName('p1');
+//  delete  p2.name;
+//  p2.sayName('p2');
+//  p2.myName();
+
+
+  function  CreateFun() {
+    var res=new Array();
+    for(var i=0;i<10;i++){
+      res[i]=function () {
+        console.log(i);
+        return i;
+      }
+    }
+    return res;
+  }
+
+ var a=CreateFun();
+  for(var j=0;j<10;j++){
+    a[j]();
+  }
+
+  function  CreateFunB() {
+    var res=new Array();
+    for(var i=0;i<10;i++){
+      res[i]=function (num) {
+        return function () {
+          return num;
+        }
+      }(i);
+    }
+    return res;
+  }
+
+  var a=CreateFunB();
+  for(var j=0;j<10;j++){
+    console.log(a[j]());
+  }
+
+  var Bright_c=function(x,y){
+    return x+y;
+  };
+  console.log(Bright_c(1,2));
+  for (var name in this){
+   if (name =='Bright_c'){
+     console.log(name+";"+typeof name);
+   }
+  }
+
+
+  var sss="ff";
+  (function (x,y,s,w) {
+    console.log(x+y+':匿名');
+    console.log(this);
+    console.log(this.constructor);
+    console.log(s);
+    var xxx="4444";
+    w.bb=xxx;
+    return x+y;
+  })(1,2,sss,window);
+
+  console.log('--')
+  console.log(this);
+  console.log(this.constructor);
+  console.log(bb)
+
+  console.log(typeof Bright_c)
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
