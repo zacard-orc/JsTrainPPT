@@ -11,3 +11,4 @@
 
 ## PPT内容
 <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8701.png" width="800px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8702.png" width="800px" />
