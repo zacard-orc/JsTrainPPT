@@ -4,4 +4,4 @@
 > 本文以Js知识点概要为基础，重在提升对于Js学习，而非重在练习，基础练习可自行网上寻找教程进行完成。因篇幅有限，文中只包含目前主流Js 60%的观点。
 
 ## PPT
-> 特此感谢  <img src="http://img.blog.csdn.net/20170120190855355?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMDQxNjEwMQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="60%" alt=""/>
+> 特此感谢  <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_391.png" width="100%" alt=""/>
