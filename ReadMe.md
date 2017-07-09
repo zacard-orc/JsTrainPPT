@@ -10,6 +10,8 @@
 ><a href="http://www.trioly.com" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_394.png" width="200px" alt=""/> </a>
 
 ## PPT内容
+> page目录有部分PPT设计的演示代码，建议在Chrome中执行
+</br>
 <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8701.png" width="860px" />
 <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8702.png" width="860px" />
 <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8703.png" width="860px" />
