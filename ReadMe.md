@@ -10,5 +10,21 @@
 ><a href="http://www.trioly.com" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_394.png" width="200px" alt=""/> </a>
 
 ## PPT内容
-<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8701.png" width="800px" />
-<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8702.png" width="800px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8701.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8702.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8703.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8704.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8705.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8706.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8707.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8708.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8709.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8710.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8711.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8712.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8713.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8714.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8715.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8716.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8717.png" width="860px" />
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8718.png" width="860px" />
