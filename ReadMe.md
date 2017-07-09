@@ -7,6 +7,9 @@
 ><a href="https://user.qzone.qq.com/371776142" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_391.png" width="50px" alt=""/> </a>
 ><a href="https://user.qzone.qq.com/740590410" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_392.png" width="50px" alt=""/> </a>
 ><a href="https://user.qzone.qq.com/16315315" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_393.png" width="50px" alt=""/> </a>
+><a href="https://user.qzone.qq.com/411329100" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_394.png" width="50px" alt=""/> </a>
+><a href="https://user.qzone.qq.com/12949343" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_395.png" width="50px" alt=""/> </a>
+><a href="https://user.qzone.qq.com/517289428" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_396.png" width="50px" alt=""/> </a>
 ><a href="http://www.trioly.com" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_394.png" width="200px" alt=""/> </a>
 
 ## PPT内容
