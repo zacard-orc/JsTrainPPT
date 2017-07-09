@@ -8,4 +8,4 @@
 > <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_391.png" width="50px" alt=""/>
 > <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_392.png" width="50px" alt=""/>
 > <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_393.png" width="50px" alt=""/>
-> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_393.png" width="200px" alt=""/>
+> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_394.png" width="200px" alt=""/>
