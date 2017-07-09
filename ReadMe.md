@@ -4,7 +4,7 @@
 > 本文以Js知识点概要为基础，重在提升对于Js学习，而非重在练习，基础练习可自行网上寻找教程进行完成。因篇幅有限，文中只包含目前主流Js 60%的观点。
 
 ## 特此感谢（更新）
-> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_391.png" width="50px" alt=""/>
+><a href="https://baidu.com"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_391.png" width="50px" alt=""/> </a>
 > <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_392.png" width="50px" alt=""/>
 > <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_393.png" width="50px" alt=""/>
 > <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_394.png" width="200px" alt=""/>
