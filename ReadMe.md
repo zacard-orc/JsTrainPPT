@@ -8,3 +8,6 @@
 ><a href="https://user.qzone.qq.com/740590410" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_392.png" width="50px" alt=""/> </a>
 ><a href="https://user.qzone.qq.com/16315315" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_393.png" width="50px" alt=""/> </a>
 ><a href="http://www.trioly.com" target="_blank"> <img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/other/Snip20170709_394.png" width="200px" alt=""/> </a>
+
+## PPT内容
+<img src="https://github.com/zacard-orc/JsTrainPPT/blob/master/ppt/%E5%B9%BB%E7%81%AF%E7%89%8701.png" width="800px" />
