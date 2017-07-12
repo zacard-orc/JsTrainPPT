@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <!--<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no">-->
+  <link href="./css/listenMusicNoFlow.css" rel="stylesheet">
+
+  <script src="./js/zepto.min.js"></script>
+  <script src="./js/vue.min.js"></script>
+  <script src="./js/flexible.js"></script>
+  <title>确认订购</title>
+</head>
+
+<body>
+
+<div id="order">
+  <div class="contentWrapper">
+    <div class="orderBanner">
+      <img src="./images/121058635.png">
+      <!--<p>{{ordeArea}} 音乐畅听{{orderFlow>=1024?orderFlow/1024 +'G':orderFlow + 'M'}}包</p>-->
+      <!--<p class="price">¥{{orderPrice}}/月</p>-->
+    </div>
+    <div class="desc">
+      <ul>
+        <li><p>类型 <span id="d_product"></span></p></li>
+        <li><p>适用用户 <span>中国联通</span></p></li>
+        <li><p>适用地区 <span id="d_area"></span></p></li>
+        <li><p>当月定向流量包 <span id="d_liang"></span></p></li>
+        <li><p>有效期 <span>当月生效</span></p></li>
+      </ul>
+    </div>
+    <p class="productDesc"><span>产品说明：</span>该QQ音乐的定向流量，只有在本号码上观看收听QQ音乐免流，超出流量包以外的，按5分／MB收取；除QQ音乐以外消耗的流量以套餐资费为准。</p>
+    <div class="autoRenew">
+      <div class="radioWrapper">
+        <lable>
+          <input type="checkbox" checked>
+        </lable>
+        <p>自动续费</p>
+      </div>
+      <div class="selected">
+        <img src="./images/selectBak.png">
+        <p>已勾选</p>
+      </div>
+      <p class="agreement" @click="showAgreeModal">《用户代扣协议》</p>
+    </div>
+    <div class="navBar">
+      <p>需支付金额：¥ {{orderPrice}}</p>
+      <a @click="showPayModal">立即支付</a>
+    </div>
+  </div>
+
+
+
+</div>
+<script>
+  function getQueryStringByName(name){
+    var result = location.search.match(new RegExp("[\?\&]" + name+ "=([^\&]+)","i"));
+    if(result == null || result.length < 1){
+      return "";
+    }
+    return result[1];
+  }
+
+  document.getElementById("d_product").innerText=decodeURI(getQueryStringByName("p"));
+  document.getElementById("d_area").innerText=decodeURI(getQueryStringByName("ar"));
+  document.getElementById("d_liang").innerText=decodeURI(getQueryStringByName("l"))+'/月';
+
+  (function () {
+
+    var app = new Vue({
+      el: '#order',
+      data: {
+        flowList: [],
+        showAgree: false,
+        showPayment:false,
+        orderFlow:'',
+        orderPrice:'',
+        ordeArea:''
+      },
+      methods: {
+        init: function () {
+          app.orderInfo();
+        },
+        orderInfo: function () {
+          var para = window.location.search.substr(1);
+          var paraArr = para.split('&');
+          app.ordeArea =  decodeURI(paraArr[0].split('=')[1]);
+          app.orderFlow =  paraArr[1].split('=')[1];
+          app.orderPrice =  paraArr[2].split('=')[1];
+        },
+        showAgreeModal:function () {
+          app.showAgree = true;
+        },
+        closeAgreeModal:function () {
+          app.showAgree = false;
+        },
+        showPayModal:function () {
+          app.showPayment = true;
+        },
+        closePayModal:function () {
+          app.showPayment = false;
+        },
+        payModal:function () {
+          location.href = "/html/listenMusicNoFlow/result.html?pay=" + '1';
+        }
+      }
+    });
+    app.init();
+
+  })()
+</script>
+</body>
+</html>
