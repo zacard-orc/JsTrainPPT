@@ -9,11 +9,11 @@
 <div id="les1_2"></div>
 
 <script type="text/javascript">
-  var a="HelloWorld";
+  var a="HelloWorld3333333";
   var b=document.getElementById('les1_1');
   b.innerText = a;
   b.style.color='#FFA500';
-  console.log("今天天气不错");
+  console.log("今天天气不错123123123");
 
 
   function Person() {
@@ -76,9 +76,9 @@
 
   function  CreateFun() {
     var res=new Array();
-    for(var i=0;i<10;i++){
+    for(var i=9;i>=1;i--){
       res[i]=function () {
-        console.log(i);
+        console.log('sssssssssss:'+i);
         return i;
       }
     }
@@ -86,7 +86,7 @@
   }
 
  var a=CreateFun();
-  for(var j=0;j<10;j++){
+  for(var j=1;j<8;j++){
     a[j]();
   }
 
@@ -103,8 +103,8 @@
   }
 
   var a=CreateFunB();
-  for(var j=0;j<10;j++){
-    console.log(a[j]());
+  for(var j=9;j>=0;j--){
+    console.log('aaaaaaaa:'+a[j]());
   }
 
   var Bright_c=function(x,y){
